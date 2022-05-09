@@ -9,4 +9,5 @@
  Import-Csv "C:\temp\User.csv" | Foreach {Grant-CsTeamsMeetingPolicy -Identity $_.UserPrincipalName -PolicyName $Null}
 
 Edited
+*編集しました
  
